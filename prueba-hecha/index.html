@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Page</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="mirai-icofonts.css">
+</head>
+
+<body>
+  <!-- Sección de banner principal -->
+  <header class="hero">
+    <div class="texto-banner">
+      <h1>Lorem Ipsum</h1>
+        <a href="#info" class="icono-scroll">
+  <img src="./imágenes/doble-flecha.png" alt="Anchor">
+</a>
+</div>
+
+    </div>
+  </header>
+
+  <!-- Sección de texto e imagen -->
+  <section class="info-seccion" id="info">
+    <div class="info-imagen">
+      <img src="./imágenes/habitacion-piedra.jpg" alt="Habitación de piedra">
+    </div>
+    <div class="info-texto">
+      <h4>WHY DO WE USE IT</h4>
+      <h2>What is Lorem Ipsum</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <p>
+        It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum.
+      </p>
+
+      <!-- Popup -->
+      <div class="contenido-popup" id="popup">
+        <div class="popup-content">
+          <span class="close-btn" id="close-popup">&times;</span>
+          <p>
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+
+      <!-- Botón para mostrar el popup -->
+      <button class="info-button" id="show-popup">MÁS INFORMACIÓN &#x2794;</button>
+    </div>
+  </section>
+
+  <!-- Sección de ventajas -->
+  <section class="ventajas">
+    <h2>Descubre las ventajas de reservar en la web</h2>
+    <div class="ventajas-contenedor">
+      <div class="ventaja">
+        <i class="iconfont">&#xea45;</i>
+        <span>Aparcamiento gratuito</span>
+      </div>
+      <div class="ventaja">
+        <i class="iconfont">&#xea34;</i>
+        <span>Piscina</span>
+      </div>
+      <div class="ventaja">
+        <i class="iconfont">&#xe93b;</i>
+        <span>Alquiler de bicicletas</span>
+      </div>
+      <div class="ventaja">
+        <i class="iconfont">&#xe9e6;</i>
+        <span>Wifi en todo el establecimiento prepago</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección del grid -->
+  <section class="seccion-grid">
+    <div class="item uno"><span>Adults Only</span></div>
+    <div class="item dos"><span>Spa & Wellness</span></div>
+    <div class="item tres"><span>Cycling tourism</span></div>
+    <div class="item cuatro"><span>All Inclusive</span></div>
+    <div class="item cinco"><span>MICE</span></div>
+    <div class="item seis"><span>Beachfront</span></div>
+    <div class="item siete"><span>Families</span></div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
